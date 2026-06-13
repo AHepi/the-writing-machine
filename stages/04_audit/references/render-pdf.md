@@ -4,6 +4,14 @@
 downloads (`rules.md` §7). Works with no network and no pip/npm installs:
 LibreOffice (`soffice`) ships in the environment and does the HTML → PDF step.*
 
+> **For math or Tufte-styled documents — including `format: textbook` — use the
+> `tufte-pdf` skill instead** (`.claude/skills/tufte-pdf/`). It renders
+> markdown to a Tufte-CSS PDF with KaTeX-typeset mathematics and footnotes turned
+> into margin sidenotes — things this reportlab/soffice path cannot do. The skill
+> needs Chromium (`python3 -m playwright install chromium`, one-time); see its
+> `SKILL.md`. This `render-pdf.md` recipe remains the default for plain prose
+> formats (essay, op-ed, substack, reddit) that carry no math.
+
 ---
 
 ## The chain

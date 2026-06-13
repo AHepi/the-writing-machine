@@ -1,83 +1,63 @@
-# sources.md — Pauline Hanson run
+# sources.md — constructor theory crash course
 
-*One entry per source ref used in `findings.md`, with a one-line reliability note.
-Reliability: strong (primary/official/first-hand), medium (reputable secondary),
-weak (self-interested / single-stake).*
+*One entry per source. Every F-tag's source ref resolves here. Reliability note
+on each.*
 
----
-
-- **Fortune2017** — Fortune, "Pauline Hanson's Burqa Stunt Draws Powerful Rebuke"
-  (Aug 2017). Reputable secondary; reports Brandis's words and the chamber's
-  reaction. *Medium–strong.*
-  https://fortune.com/2017/08/17/pauline-hanson-burqa-parliament-australia/
-
-- **BBC2017** — BBC News, "Pauline Hanson wears burka in Australian Senate" (Aug
-  2017). Reputable secondary, first-hand chamber reporting. *Strong (secondary).*
-  https://feeds.bbci.co.uk/news/world-australia-40957255
-
-- **AlJazeera2019** — Al Jazeera Investigative Unit, *How to Sell a Massacre* /
-  "Australia's One Nation offered 'change to voting system' for cash" (Mar 2019).
-  The investigation that holds the primary footage; publisher conducted the sting,
-  so note the stake, but the recordings are first-hand. *Strong (primary footage),
-  stake noted.*
-  https://www.aljazeera.com/news/2019/3/27/australias-one-nation-offered-change-to-voting-system-for-cash
-
-- **BBC2019** — BBC News, "Australian gun laws: One Nation party 'sought NRA money'
-  in US" (Mar 2019). Independent reputable secondary corroborating the sting.
-  *Strong (secondary).*
-  https://feeds.bbci.co.uk/news/world-australia-47701467
-
-- **FoxAlcohol2019** — Fox News, "Australia's right-wing party blames alcohol on
-  loose tongue after asking for donations from NRA" (Mar 2019). Reports the
-  officials' "alcohol" explanation. *Medium.*
-  https://noticias.foxnews.com/world/australias-right-wing-party-blames-alcohol-on-loose-tongue-after-asking-for-donations-from-nra.print
-
-- **AJPortArthur2019** — Al Jazeera, "Australia PM slams One Nation over Port Arthur
-  shooting claims" (Mar 2019). Used for the Port-Arthur/Howard origin of the gun
-  laws. *Medium.*
-  https://www.aljazeera.com/news/2019/3/28/australia-pm-slams-one-nation-over-port-arthur-shooting-claims
-
-- **WikiRoberts** — Wikipedia, "Malcolm Roberts (politician)." Tertiary, but the
-  underlying fact is the High Court's Oct 2017 s44 ruling (primary, public record).
-  *Medium (fact is strong).*
-  https://en.wikipedia.org/wiki/Malcolm_Roberts_(politician)
-
-- **Conversation_Roberts** — The Conversation, "Hanson loses replacement senator –
-  before he is even sworn in" (2017). Academic-adjacent secondary. *Medium.*
-  https://theconversation.com/hanson-loses-replacement-senator-before-he-is-even-sworn-in-87355
-
-- **WikiONP** — Wikipedia, "Pauline Hanson's One Nation." Tertiary summary of
-  defections (Culleton, Anning, Burston) and the tax-cut clash; each underlying
-  event is independently reported. *Medium.*
-  https://en.wikipedia.org/wiki/Pauline_Hanson's_One_Nation
-
-- **BBC2018** — BBC News, "'It's OK to be white' bill defeated in Australian Senate"
-  (Oct 2018). Reports the 31–28 vote, Coalition votes, and government reversal.
-  *Strong (secondary).*
-  https://feeds.bbci.co.uk/news/world-australia-45861433
-
-- **Buzzfeed2018** — BuzzFeed News, "We Actually Didn't Mean To Vote For The 'It's
-  OK To Be White' Motion, Says The Government" (2018). Names the ministers and the
-  "error" explanation. *Medium.*
-  https://www.buzzfeed.com/aliceworkman/government-administrative-error-pauline-hanson-its-ok-to-be
-
-- **Macquarie2021** — Macquarie University research, "'It's OK to be white': the
-  discursive construction of victimhood, 'anti-white racism' and calculated
-  ambivalence in Australia" (Critical Discourse Studies, 2021). Peer-reviewed; used
-  for the slogan's origin/function. *Strong (academic).*
-  https://researchers.mq.edu.au/en/publications/its-ok-to-be-white-the-discursive-construction-of-victimhood-anti/
-
-- **Conversation2020** — The Conversation, "Pauline Hanson built a political career
-  on white victimhood and brought far-right rhetoric to the mainstream" (2020).
-  Analysis with a critical POV — used only for the uncontested point that real
-  voter concerns drive her support. *Medium, stake noted.*
-  https://theconversation.com/pauline-hanson-built-a-political-career-on-white-victimhood-and-brought-far-right-rhetoric-to-the-mainstream-134661
-
-- **Britannica** — Encyclopædia Britannica, "Pauline Lee Hanson." Tertiary
-  reference for career dates and brand. *Medium–strong.*
-  https://www.britannica.com/biography/Pauline-Lee-Hanson
-
-- **OneNation_highlights** — One Nation, "Pauline Hanson Achievements"
-  (onenation.org.au/highlights). The party's own claims — self-interested. *Weak;
-  use only to concede modest influence, never as verified fact.*
-  https://www.onenation.org.au/highlights
+- **S1** — Deutsch, D. "Constructor Theory." *Synthese* 190 (2013).
+  https://link.springer.com/article/10.1007/s11229-013-0279-z — the foundational
+  paper. Peer-reviewed journal. **Strong.**
+- **S2** — PhilPapers record for Deutsch, "Constructor Theory."
+  https://philpapers.org/rec/DEUCT — bibliographic confirmation. **Strong.**
+- **S3** — "Constructor theory," Wikipedia.
+  https://en.wikipedia.org/wiki/Constructor_theory — overview; gives the
+  task/constructor/possible-impossible definitions and the "fringe physics"
+  categorization. Encyclopedic tertiary source; good for definitions, weaker for
+  status verdicts. **Medium–strong.**
+- **S4** — Marletto, C. *The Science of Can and Can't* (Penguin Random House,
+  4 May 2021). https://www.penguinrandomhouse.com/books/558594/ — the popular
+  book. Author is a principal of the programme. **Strong** (primary, popular).
+- **S5** — Centre for Quantum Technologies feature on Marletto's book (Jul 2021).
+  https://www.cqt.sg/highlight/2021-07-chiara-marletto-book-the-science-of-can-and-cant/
+  — author bio and book framing. Reputable institutional secondary. **Strong.**
+- **S6** — "How to Rewrite the Laws of Physics in the Language of Impossibility,"
+  *Quanta Magazine* (29 Apr 2021).
+  https://www.quantamagazine.org/with-constructor-theory-chiara-marletto-invokes-the-impossible-20210429/
+  — interview/explainer with Marletto; source of the catalyst analogy, the
+  "declaring something impossible…" line, and the "remains to be seen" caveat.
+  High-quality science journalism. **Strong.**
+- **S7** — Deutsch, D. & Marletto, C. "Constructor theory of information."
+  *Proc. R. Soc. A* 471:20140540 (2015).
+  https://royalsocietypublishing.org/doi/10.1098/rspa.2014.0540 — peer-reviewed.
+  **Strong.**
+- **S8** — Open-access copy of S7 via PubMed Central.
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC4309123/ — full text. **Strong.**
+- **S9** — Deutsch, D. "Quantum theory, the Church–Turing principle and the
+  universal quantum computer." *Proc. R. Soc. Lond. A* 400 (1985).
+  https://www.scirp.org/reference/referencespapers?referenceid=1935402 — landmark
+  quantum-computing paper. **Strong.**
+- **S10** — "The Fabric of Reality," Wikipedia.
+  https://en.wikipedia.org/wiki/The_Fabric_of_Reality — for the four "strands"
+  and publication facts. Tertiary; uncontroversial facts. **Medium–strong.**
+- **S11** — Marletto, C. "Constructor theory of life." *J. R. Soc. Interface*
+  12:20141226 (2015).
+  https://royalsocietypublishing.org/rsif/article/12/104/20141226 — peer-reviewed.
+  **Strong.**
+- **S12** — Open-access copy of S11 (arXiv 1407.0681 / PMC).
+  https://arxiv.org/pdf/1407.0681 — full text. **Strong.**
+- **S13** — Marletto, C. "Constructor Theory of Thermodynamics." arXiv 1608.02625.
+  https://arxiv.org/pdf/1608.02625 — preprint by a principal. **Strong**
+  (preprint; not separately re-verified for journal version).
+- **S14** — Marletto, C. "Constructor Theory of Probability." arXiv 1507.03287.
+  https://arxiv.org/pdf/1507.03287 — preprint. **Strong** (preprint).
+- **S15** — Marletto, C. & Vedral, V. "Gravitationally Induced Entanglement
+  between Two Massive Particles is Sufficient Evidence of Quantum Effects in
+  Gravity." *Phys. Rev. Lett.* 119, 240402 (2017).
+  https://link.aps.org/doi/10.1103/PhysRevLett.119.240402 — peer-reviewed.
+  **Strong.**
+- **S16** — Open-access copy of S15, arXiv 1707.06036.
+  https://arxiv.org/pdf/1707.06036 — full text, plus the surrounding experimental
+  literature on testing the quantum nature of gravity. **Strong.**
+- **S17** — constructortheory.org (the programme's own site).
+  http://www.constructortheory.org/ — primary project material (hosts copies of
+  the life paper, etc.). **Strong** (primary, partisan — use for claims about the
+  programme's own aims, not for neutral status judgments).

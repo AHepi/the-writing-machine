@@ -1,79 +1,120 @@
-# factsheet.md — Pauline Hanson vs. the pro-Australia brand
+# factsheet.md — constructor theory crash course
 
-*Stage 02 output. The facts that survived selection, each with a fixed
-S-register. The draft may claim nothing outside this file, and nothing at a
-register stronger than its S-tag. Src refs resolve in
-`../../01_research/output/sources.md`.*
+*The facts that survived selection, each with a fixed S-register. The draft may
+claim nothing outside this file, and may not write any claim at a register
+stronger than its S-tag allows. (S-strong = peer-reviewed or primary;
+S-medium = reputable secondary / popular paraphrase / encyclopedic.)*
 
----
+## People & origins
 
-## Conduct in the chamber (serves D1, D3)
+- **F1 [S-strong]**: Constructor theory was proposed by physicist David Deutsch;
+  his foundational paper "Constructor Theory" appeared in *Synthese* in 2013. [S1]
+- **F2 [S-strong]**: It has been developed since ~2012 by Deutsch with Chiara
+  Marletto at the University of Oxford. [S3, S6]
+- **F3 [S-strong]**: Marletto is an Oxford physicist and author of the popular
+  book *The Science of Can and Can't* (2021). [S4, S5]
+- **F4 [S-strong]**: Deutsch defined the universal quantum computer in 1985 and
+  wrote *The Fabric of Reality* (1997) and *The Beginning of Infinity* (2011).
+  [S9, S10]
+- **F5 [S-strong]**: *The Fabric of Reality* argues four explanatory "strands" —
+  quantum physics, evolution, computation, and the theory of knowledge — are
+  deeply interconnected. [S10]
 
-- **F1 [S-strong]:** In August 2017 Hanson sat in the Senate wearing a full burqa,
-  then removed it to demand a ban — a stunt the **Coalition's own** Attorney-General
-  George Brandis condemned as "appalling," to a standing ovation across the chamber.
-  *(Rebuked by her own side, not just the left.)* [Fortune2017; BBC2017]
+## The core reframing
 
-## Foreign money vs. an Australian law (serves D1, D3, D4)
+- **F6 [S-strong]**: The prevailing conception of fundamental physics predicts
+  what *will* happen from a system's initial conditions plus its laws of motion.
+  [S1, S3]
+- **F7 [S-strong]**: Constructor theory expresses physical laws exclusively in
+  terms of which transformations ("tasks") are possible versus impossible, and
+  why. [S3]
+- **F8 [S-strong]**: A stated motivation is that some phenomena — the physics of
+  information and of life — resist description in terms of trajectories and
+  initial conditions. [S6]
+- **F9 [S-medium]**: A guiding heuristic, in Marletto's words: "Declaring
+  something impossible leads to more things being possible." [S6]
 
-- **F2 [S-strong]:** In Al Jazeera's 2019 *How to Sell a Massacre*, One Nation's
-  chief of staff James Ashby and Queensland leader Steve Dickson were secretly
-  filmed in Washington (Sept 2018) seeking up to **US$20 million** from the US gun
-  lobby, including the NRA, with the discussed aim of softening Australia's gun
-  laws. *(S-register cap C1: the ask was Ashby/Dickson's, not Hanson's personally.)*
-  [AlJazeera2019; BBC2019]
-- **F3 [S-strong]:** Australia's national firearms laws were enacted after the 1996
-  Port Arthur massacre under **conservative** PM John Howard — the very laws the
-  approach discussed weakening are a Coalition achievement. [AJPortArthur2019]
-- **F4 [S-strong]:** Hanson's response was not to disown it but to call the exposé a
-  "political attack" "taken out of context"; her officials blamed alcohol. [FoxAlcohol2019; AlJazeera2019]
+## Key definitions
 
-## A household that won't hold together (serves D1, D3)
+- **F10 [S-strong]**: A **task** is the abstract specification of a transformation
+  as input–output pairs of attributes. [S3]
+- **F11 [S-strong]**: A **constructor** is an entity that can cause a task to
+  occur while retaining the ability to cause it again — like a catalyst. [S3, S6]
+- **F12 [S-strong]**: A **substrate** is the physical system a constructor acts
+  on, whose attributes are transformed. [S3]
+- **F13 [S-strong]**: A task is **impossible** if a law of physics forbids its
+  being performed with arbitrarily high accuracy; otherwise it is **possible**
+  (a constructor for it could in principle exist). [S3]
 
-- **F5 [S-strong]:** In October 2017 the High Court disqualified One Nation senator
-  Malcolm Roberts under s44 for holding **British citizenship** at his election — a
-  sovereignty failure inside a sovereignty party. [WikiRoberts; Conversation_Roberts]
-- **F6 [S-medium]:** One Nation has fractured repeatedly — Culleton (2016–17),
-  Anning (quit ~the day he replaced Roberts, Nov 2017), Burston (June 2018). [WikiONP; Conversation_Roberts]
-- **F7 [S-medium]:** Burston's split centred on company tax cuts — a policy on which
-  **Hanson had reversed her position**: a documented flip-flop on a major economic
-  vote. [WikiONP]
+## Counterfactuals
 
-## Importing the culture war (serves D1, D3, D4)
+- **F14 [S-strong]**: Constructor theory admits **counterfactual** statements —
+  about what could or could not happen, not only what does — into fundamental
+  physics. [S3]
+- **F15 [S-strong]**: Hence Marletto's title *The Science of Can and Can't*:
+  can/can't statements are treated as fundamental physical facts. [S4, S6]
+- **F16 [S-strong]**: Existing physics already hides such statements — e.g.
+  conservation of energy is equivalent to "a perpetual-motion machine is
+  impossible." [S6]
 
-- **F8 [S-strong]:** In October 2018 Hanson moved a Senate motion that "it's OK to be
-  white"; 23 Coalition senators voted **for** it before the government reversed the
-  next day, calling it an "error" that "slipped through." Defeated 31–28. [BBC2018; Buzzfeed2018]
-- **F9 [S-medium]:** Reporting and peer-reviewed analysis trace that slogan to online
-  white-supremacist forums; the stunt dragged the centre-right into a humiliating
-  backflip. *(Cap C2: attribute origin to reporting; Hanson framed it as
-  anti-racism.)* [BBC2018; Macquarie2021]
+## Information
 
-## Tenure and the honest caveat (serves D2, D4)
+- **F17 [S-strong]**: Deutsch & Marletto, "Constructor theory of information,"
+  *Proc. R. Soc. A* 471:20140540 (2015). [S7, S8]
+- **F18 [S-strong]**: It holds that information is not an a priori
+  mathematical/logical concept; its nature is fixed by the laws of physics,
+  expressed through which transformations are possible or impossible. [S7, S8]
+- **F19 [S-strong]**: It seeks constructor-theoretic laws for when information can
+  be "physically instantiated," aiming to underlie both classical and quantum
+  information. [S1, S7]
 
-- **F10 [S-strong]:** Hanson has been a national figure for decades — House of
-  Representatives 1996–98, Senator for Queensland since July 2016 — on a patriotism
-  /immigration brand. [Britannica; WikiONP]
-- **F11 [S-weak — self-reported]:** One Nation claims modest, leverage-based wins
-  (e.g. a four-year wait for migrant welfare). Source is the party itself — use only
-  to concede she has had *some* influence, never as verified fact. [OneNation_highlights]
-- **F12 [S-medium]:** Her support rests on real, widely-felt concerns the major
-  parties were slow to engage — immigration pace, social cohesion, a political class
-  that stopped listening. This is the strongest "she's pro-Australia" case and must
-  be granted before it's answered. *(Stake: Conversation2020 is critical analysis;
-  used only for this uncontested point.)* [Conversation2020; Britannica]
+## Life
 
----
+- **F20 [S-strong]**: Marletto, "Constructor theory of life," *J. R. Soc.
+  Interface* 12:20141226 (2015). [S11, S12]
+- **F21 [S-strong]**: It addresses how neo-Darwinian evolution explains apparent
+  design without a designer, via replication and natural selection. [S11]
+- **F22 [S-strong]**: Central result: accurate self-reproduction, replication and
+  natural selection are compatible with "no-design" laws of physics, the only
+  non-trivial requirement being that the laws permit **digital information** to be
+  physically instantiated. [S11, S12]
+- **F23 [S-strong]**: Under no-design laws, an accurate replicator requires a
+  "vehicle" that together with the replicator forms a self-reproducer. [S11]
 
-## Caveats the draft must honour (handling rules, not facts)
+## Thermodynamics & probability
 
-- **C1:** The US$20m solicitation was Ashby/Dickson, not Hanson personally; she
-  denied wrongdoing. Attribute the ask to her officials and to Hanson her *defence*
-  of it (F2/F4) — do not write that Hanson personally asked the NRA for money.
-- **C2:** The "it's OK to be white" slogan-origin is reported/academic; Hanson
-  framed the motion as anti-racism. State the origin as reported, not as her intent.
-- **C3:** F12's concerns are legitimate goods, not prejudice. Conceding them is
-  mandatory (conservative §6; brief D4); the argument is *different weighting / wrong
-  steward*, never bad faith.
+- **F24 [S-strong]**: A constructor theory of thermodynamics (Marletto, arXiv
+  1608.02625) aims to state the second law exactly and scale-independently in
+  constructor-theoretic terms. [S13]
+- **F25 [S-medium]**: Thermodynamics fits the can/can't mould: some
+  transformations run one way but not the reverse (the second law), stated as
+  which tasks are possible vs impossible. [S6, S13]
+- **F26 [S-strong]**: A "Constructor Theory of Probability" (Marletto, arXiv
+  1507.03287) extends the approach to probabilistic statements. [S14]
 
-*Cut from stage 01:* nothing load-bearing dropped. D1–D5 covered.
+## Status, testability & honesty
+
+- **F27 [S-medium]**: Constructor theory is an early-stage research programme, not
+  established or experimentally confirmed physics; it sits outside the mainstream
+  (Wikipedia files it under "fringe physics"). [S3] — *frame as "outside the
+  current mainstream and not yet experimentally established," not as a verdict.*
+- **F28 [S-strong]**: Even sympathetic coverage notes that whether constructor
+  theory "can really deliver … remains to be seen," with broad empirical
+  validation still undeveloped. [S6]
+- **F29 [S-strong]**: Marletto & Vedral (2017, *Phys. Rev. Lett.* 119, 240402)
+  proposed that if two masses, each in a quantum superposition of positions,
+  become entangled purely via their mutual gravity, that is evidence gravity is
+  quantum — because a purely classical mediator cannot create entanglement. [S15,
+  S16] — *related research direction, not a direct test of constructor theory as a
+  whole.*
+- **F30 [S-strong]**: This gravity-entanglement test is considered closer to
+  feasible than detecting gravitons or Planck-scale effects, but remains very hard
+  and has not yet been performed. [S15, S16]
+
+## Contested-fact handling
+
+- F27: state plainly that the programme is young and unproven and outside the
+  mainstream — supported by F27 + F28 — without dressing the Wikipedia label up as
+  an authoritative ruling.
+- F29/F30: present as the broader research direction making contact with
+  experiment, explicitly *not* as confirmation of constructor theory itself.

@@ -1,161 +1,126 @@
-# outline.md — Land Value Tax for New Zealand
+# outline.md — Pauline Hanson vs. the pro-Australia brand (r/AustralianPolitics)
 
-*Stage 02 output. The argument's beats in order (each naming its F-tags), the
-imagery map, and one licensed visual mark. Stage 03 renders exactly this — no
-new facts, no images off the map. Spine per `persuasion.md`; register per
-`general.md`; heat = provocation:low.*
+*Stage 02 output. The beats in order (each naming its F-tags), the imagery map,
+and visual marks. Stage 03 renders exactly this — no new facts, no images off the
+map. Spine per `persuasion.md`; register per `conservative.md` + `reddit.md`;
+heat = provocation:high (aimed at record/hypocrisy, never the reader — §5).*
 
 ---
 
-## Beats (claim → reason → evidence → objection → reply → payoff)
+## Beats (reddit: hook → body → honest caveat → open close)
 
-**B1 — Opening / Claim (D1).** Open on the concrete: a New Zealand house whose
-section is worth more this year than last because a new train station, school or
-café opened nearby — the owner did nothing. State the thesis plainly: New
-Zealand is almost the ideal country for a land value tax, because its specific
-conditions — a housing crisis, a tax system with a land-shaped hole in it, and
-the valuation machinery already built and running — line up behind it.
-*Facts:* F4 (community-made value), seeds F7/F8/F10.
-*Imagery:* introduce the controlling metaphor at its simplest (the lucky corner).
+**B1 — Hook / thesis (D1).** First two lines carry the point, as the format
+demands. Frame the test in conservative terms: patriotism isn't a flag in the
+window, it's whether you maintain the house you were handed. Hanson flies the flag
+harder than anyone — but look at what's happened to the house on her watch. State
+the thesis plainly: judged by conservative standards (stewardship, responsibility,
+proof), her record runs *against* Australia, not for it.
+*Facts:* seeds F2/F5/F8. *Imagery:* introduce the metaphor at its simplest (flag
+vs. the house you maintain).
 
-**B2 — The mechanism (D3).** Explain what LVT actually taxes: the bare land
-under your feet, not the house you built on it. The empty section and the
-apartment block next door, same land, same bill. Crucially, NZ already prints
-this number — every property carries an official Land Value, separate from the
-building, refreshed every three years.
-*Facts:* F1, F2. *Register:* F1 medium (attribute lightly), F2 strong (state flatly).
+**B2 — The locks her own side installed (D3, D4).** The sharpest thread first.
+Australia's gun laws are a *conservative* inheritance — Howard's, after Port Arthur
+(F3). In 2018 her two most senior lieutenants flew to Washington and asked the US
+gun lobby for up to US$20m, the discussed aim being to soften those laws (F2). When
+it surfaced, Hanson's instinct was to defend them and call the exposé a "political
+attack" (F4). Heat aimed here: a patriot who lets foreigners file down the locks a
+previous owner fitted — and whose own party (Howard's Liberals) built.
+*Facts:* F3, F2, F4. *Imagery:* extend — foreign money at the door, filing the locks.
 
-**B3 — The reason: why land is the one thing worth taxing (D1).** The efficiency
-core, in the audience's own terms. You can move your money, your labour, your
-company offshore; you cannot move a quarter-acre in Mount Eden. Tax the things
-that flee and they flee; tax the thing that can't and you raise revenue without
-scaring it off. Hence far less of the waste ("deadweight loss") that other taxes
-cause — a point old enough that Adam Smith made it. And the value being taxed
-was made by the community (the station, the road, the neighbourhood), not the
-owner — so it's the fairest thing to tax, not the harshest.
-*Facts:* F3 (cap at "far more efficient," per C2), F5, F4.
-*Imagery:* extend the metaphor — your effort (the house) vs the community's gift
-(the land's worth).
+**B3 — A steward who can't keep her own household (D3).** Stewardship is proven by
+what survives. Her party keeps walking out the front door: Roberts disqualified
+under s44 for British citizenship — a *sovereignty* failure inside a sovereignty
+party (F5); Culleton, Anning, Burston all gone (F6); and she flipped on company tax
+cuts hard enough to lose Burston over it (F7). A custodian whose household won't
+stay under the roof.
+*Facts:* F5, F6, F7. *Imagery:* extend — the household walking out; keeping the books.
 
-**B4 — The NZ fit, part 1: the hole in the tax system (D4).** New Zealand is
-nearly unique among rich countries in having no broad capital gains tax; land
-gains slip through but for the narrow bright-line test. So untaxed land has
-become the national investment of choice — and prices show it.
-*Facts:* F8, F7.
-*Visual mark:* **CHART here** — affordability comparison; see Imagery/Visuals.
+**B4 — Dragging the family into brawls (D3, D4).** The "it's OK to be white" motion
+(F8): she pulled 23 Coalition senators into voting for a slogan that reporting
+traces to white-supremacist forums (F9), forcing a humiliating government backflip.
+Whatever you think of the words, the *effect* was to embarrass the actual
+centre-right and import a foreign internet brawl into our Parliament — theatre that
+cost her own side, like the burqa stunt her own Attorney-General called "appalling"
+(F1).
+*Facts:* F8, F9, F1. *Imagery:* extend — brawls in the front yard the family must clean up.
 
-**B5 — The NZ fit, part 2: the machine is already built (D4).** The usual
-killer objection to LVT elsewhere — "you can't value land separately, it's too
-hard" — barely applies here. NZ councils already rate property and may rate on
-land value; QV revalues the land component of every property every three years;
-a national land tax ran until 1992; the Henry George movement bit deeper here
-than almost anywhere; and Wellington was openly weighing a switch to land-value
-rates in 2024. The country isn't being asked to build a new machine, only to
-turn one it already owns.
-*Facts:* F10, F11, F12, F9. *(F10/F2 answer caveat C1 in-line.)*
-*Imagery:* extend — the town grew up around the corner; the meter for it is
-already installed.
+**B5 — The honest caveat / steelman (D2, D4).** The strongest case *for* her, given
+its full force: she named real things the majors ducked — the pace of immigration,
+social cohesion, a political class that stopped listening (F12) — and she's had the
+odd genuine win (F11). Concede plainly: those concerns are real goods, not
+prejudice, and a lot of decent people vote on them. *(C3 honoured.)*
+*Facts:* F12, F11. *Imagery:* the house *is* worth keeping — that's the point.
 
-**B6 — Strongest objection, steelmanned (D2).** Give the cash-poor case its
-full force: the widow in the villa she bought in 1975, now worth $2m through no
-act of hers; the farmer whose balance sheet is all dirt and no cash. A land tax
-could tax them out of homes and farms. Concede plainly that this has real
-political weight — it's why land taxes keep losing at the ballot box.
-*Facts:* F13 (medium — frame as "the objection runs…"), concede per C3.
-
-**B7 — Reply (D2).** Answer on New Zealand's own terms: the country already runs
-the remedy. Rates postponement lets eligible owners — typically over-65 or
-low-income — stop paying and let the bill accrue against the estate, settled only
-when the property sells. The widow keeps her villa; the tax is paid from the
-windfall when it's finally realised, not from a pension. Deferral is a standard,
-proven tool, not an improvisation. Concede the residual: uptake is low and people
-hate debt against the family home, so the design must be generous and automatic —
-but the problem is one of design, not a reason to reject the tax.
-*Facts:* F14 (strong), F15 (medium), concede per C3.
-*Imagery:* close the loop — you settle up with the corner only when you cash out.
-
-**B8 — Payoff.** What follows if the thesis holds. A tax that's hard to dodge,
-cheap to run on rails NZ already owns, that gently punishes hoarding empty land
-and rewards building on it — exactly the medicine for a country that has made
-land its favourite place to park money instead of live. Close on consequence:
-the section that got lucky finally pays a little of its luck back to the town
-that created it.
-*Facts:* F6 (land banking), echoes F4, F7.
+**B6 — Reply + open close (D2).** Answer on conservative terms: a real cause
+deserves a real steward, and she's the wrong one. She converts genuine concern into
+permanent grievance and spectacle, can't hold a party together, flips on policy, and
+will take the fight to her own side and to a foreign lobby before she'll do the
+patient work of maintenance. Naming a problem isn't fixing it; flying the flag isn't
+keeping the house. Close open, as reddit wants: not a grand conclusion but a
+question to the room — if patriotism is stewardship, what exactly has she conserved?
+*Facts:* echoes F2/F5/F8/F12. *Imagery:* close the loop — flag vs. house.
 
 ---
 
 ## D-item coverage
 
-- **D1** (thesis up front): B1, reinforced B3. ✓
-- **D2** (steelman + reply): B6 (steelman) → B7 (reply). ✓
-- **D3** (what LVT taxes, NZ concrete, no undefined jargon): B2 (deadweight loss
-  named in plain words at B3). ✓
-- **D4** (≥2 NZ-specific facts): B4 (no CGT, affordability) + B5 (rating system,
-  1992 land tax, Wellington 2024, TWG). ✓
-- **D5** (length 1,400–1,700): prose budget below. ✓
+- **D1** (thesis in first two lines): B1. ✓
+- **D2** (steelman + reply): B5 (steelman) → B6 (reply). ✓
+- **D3** (≥3 specific sourced facts): B2 (F2/F3/F4), B3 (F5/F6/F7), B4 (F8/F9/F1) —
+  well over three. ✓
+- **D4** (concede a legitimate good, no strawman/bad-faith): B5 concedes F12/F11;
+  C3 binds B2/B4 not to caricature voters. ✓
+- **D5** (300–800 words, reddit register): budget below. ✓
 
-Rough budget: B1 ~150 · B2 ~180 · B3 ~250 · B4 ~200 · B5 ~250 · B6 ~200 ·
-B7 ~250 · B8 ~170 ≈ 1,650 words. Inside band.
+Rough budget: B1 ~70 · B2 ~140 · B3 ~120 · B4 ~130 · B5 ~110 · B6 ~110 ≈ 680 words.
+Inside the 300–800 band, room to breathe.
 
 ---
 
 ## Imagery
 
-**Controlling metaphor — "the corner that got lucky."** A plot of land whose
-worth climbs because of what the community builds *around* it — a train station,
-a school, a café, a motorway on-ramp — while the owner does nothing. Drawn
-straight from the general audience's everyday world of neighbourhoods, property,
-traffic and money (`general.md` §4). It carries the whole argument: the value is
-the town's gift, so taxing it is fair; the land can't flee, so taxing it is
-efficient; the idle corner that harvests the town's growth without building is
-exactly what the tax should bite.
+**Controlling metaphor — "the custodian of an inherited house."** Patriotism judged
+as *stewardship of the national household handed down the generations* — drawn
+straight from the conservative audience's world (`conservative.md` §4:
+stewardship, inheritance, the household and its budget, institutions as buildings
+maintained across generations, debts paid and owed). It carries the whole argument:
+a real patriot maintains the house, pays its debts, keeps the family together and
+keeps strangers from tampering with the locks — and is judged by what survives, not
+by how loudly they love the place.
 
-**Compatible domain set (declared):** neighbourhood / everyday property /
-local infrastructure (stations, roads, schools) / household money. All supporting
-images must live here. No courtroom, no battlefield, no biology.
+**Compatible domain set (declared):** the household / inheritance / maintenance and
+repair / the family under one roof / locks and security / the household books. All
+supporting images must live here. No battlefield, no courtroom, no sport.
 
 **Layering (simplest → extended):**
-- B1: simplest — your section is worth more because a station opened; you did
-  nothing.
-- B3: extend — separate *your* effort (the house you maintain) from *the town's*
-  gift (the rising land beneath it).
-- B5: extend — the town grew up around the corner, and the meter that measures
-  the gift (the council's Land Value figure) is already installed.
-- B7/B8: close — you settle up with the corner only when you cash out; the lucky
-  corner finally pays a little back to the town that made it lucky.
+- B1: simplest — patriotism isn't a flag in the window, it's maintaining the house.
+- B2: extend — a previous owner (Howard) fitted the locks (gun laws); she let
+  foreigners try to file them down.
+- B3: extend — the household keeps walking out the front door; the books don't add up.
+- B4: extend — she keeps dragging the family into brawls it has to clean up after.
+- B5/B6: close — the house *is* worth keeping; the question is whether she's the
+  custodian who keeps it.
 
-**Supporting images (each mapped to its beat, all in-domain):**
-- "money/labour/companies can move offshore; a quarter-acre in Mount Eden can't"
-  — B3 (efficiency). In-domain (property + money).
-- "untaxed land as the national investment of choice / where the country parks
-  its money" — B4 and B8. In-domain (household money).
-- "the widow's 1975 villa; the farmer whose balance sheet is all dirt" — B6
-  (steelman). In-domain (neighbourhood/property).
+**Supporting images (each mapped, all in-domain):**
+- "foreign money at the door / filing down the locks a previous owner fitted" — B2
+  (gun laws). In-domain (household security + inheritance).
+- "the household that won't stay under the roof / the books that don't balance" — B3
+  (defections + tax-cut flip). In-domain.
+- "brawls in the front yard the family has to clean up" — B4 (motion + burqa stunt).
+  In-domain.
 
-**Condescension test:** every image is one a smart NZ layperson uses at a
-barbecue — "our section jumped when the train line went in." Passes. No outsider
-ventriloquism.
+**Condescension test:** every image is one a thoughtful conservative would use
+themselves — stewardship of an inheritance, keeping the household together, paying
+debts. Passes. No outsider ventriloquism, no sneer at her voters.
 
-**Memes:** none. Essay format + general audience both withhold the licence
-(`essay.md` §6, `general.md` §5).
+**Memes:** none. Conservative §5 prefers wry understatement over snark; a meme would
+clash with the audience even though reddit would permit one. Dry wit only.
 
 ---
 
-## Visuals (dial: auto; essay = prose-first, one visual only where it clearly wins)
+## Visuals (dial: auto)
 
-**At B4 — one chart.** Numbers with a shape (a comparison against a threshold) —
-the eye reads it faster than the sentence. Sits beside the affordability claim,
-per the placement law.
-
-```
-CHART:
-  type: bar
-  data: F7        # NZ ~14.6x, Auckland ~8-11x, Demographia affordable threshold 3.0
-  x: New Zealand (national) | Auckland | "Affordable" threshold
-  y: Median house price ÷ median household income (×)
-  message= New Zealand housing sits 3-5x above the international "affordable" line, showing how far untaxed land has run.
-```
-
-No other beat earns a visual: the mechanism (B2) and the spine (B3) are
-conceptual and read better as prose; a second chart would be reaching for rigour
-the essay doesn't need (`essay.md` §5).
+**None.** Every fact here is a date, a quote, or an event — narrative, not
+quantitative. Nothing has a shape a chart or table would carry better than a
+sentence (`visuals.md` shape-matching), and reddit is prose-first anyway
+(`reddit.md` §5). No visual marks.

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{TITLE}</title>
+<link rel="stylesheet" href="{ASSET_DIR}/tufte.css">
+<link rel="stylesheet" href="{ASSET_DIR}/katex/katex.min.css">
+<link rel="stylesheet" href="{ASSET_DIR}/tufte-print.css">
+<script defer src="{ASSET_DIR}/katex/katex.min.js"></script>
+<script defer src="{ASSET_DIR}/katex/contrib/auto-render.min.js"></script>
+</head>
+<body>
+<article>
+<section>
+{BODY}
+</section>
+</article>
+<script>
+  // Signal-when-ready handshake for the PDF renderer: typeset all math,
+  // wait for web fonts, then flip the flag render.py polls on.
+  window.__renderReady = false;
+  window.addEventListener("load", function () {
+    try {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false }
+        ],
+        throwOnError: false
+      });
+    } catch (e) {
+      console.error("KaTeX render error:", e);
+    }
+    var done = function () { window.__renderReady = true; };
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(done).catch(done);
+    } else {
+      done();
+    }
+  });
+</script>
+</body>
+</html>

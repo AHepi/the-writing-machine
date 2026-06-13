@@ -54,9 +54,8 @@ padded.**
 
 ## 5. Voice
 
-- The delivery floor is `_config/style/pinker-prose.md` (full) /
-  `pinker-core.md` (distilled): classic style, concrete over abstract, the
-  reader shown the world rather than told about the prose.
+- The delivery floor is `_config/style/pinker-prose.md`: classic style, concrete
+  over abstract, the reader shown the world rather than told about the prose.
 - The format file sets structure and length; the audience file sets register
   and assumed knowledge; `persuasion.md` sets how hard the argument leans. These
   compose; none overrides the respect floor.
@@ -70,3 +69,19 @@ stronger than either alone.*
 ## 6. House rules (yours)
 
 - (add your own here)
+
+## 7. Output delivery & format
+
+**Every run delivers its *final* deliverable to the user as a downloadable file.**
+
+- Non-`course` formats are rendered from `final.md` to **PDF** and delivered as
+  `<topic-slug>.pdf`. The PDF is the thing the human reads; the markdown is the
+  working file behind it.
+- The `course` format is the exception: it delivers its `course-package.md` (a
+  markdown handoff meant for a machine to build from, not a human to read) as the
+  download. No PDF.
+- Rendering follows `stages/04_audit/references/render-pdf.md` — an offline
+  markdown → HTML → PDF recipe. Any `CHART:` spec in the draft renders as a
+  visual in the PDF, not as raw spec text.
+- This rule scopes to the **final deliverable** of a run, not to intermediate
+  stage files (briefs, factsheets, outlines, drafts), which stay markdown.

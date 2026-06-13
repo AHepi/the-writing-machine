@@ -72,7 +72,8 @@ account, and the price of a house is the statement.
 CHART:
   type: bar
   data: F7
-  x: New Zealand (national) | Auckland | "Affordable" threshold
+  x: New Zealand (national) | Auckland (mid) | "Affordable" threshold
+  values: 14.6 | 9.5 | 3
   y: Median house price ÷ median household income (×)
   message= New Zealand housing sits 3-5x above the international "affordable" line, showing how far untaxed land has run.
 

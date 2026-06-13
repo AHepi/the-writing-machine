@@ -11,7 +11,7 @@ cross the D-gate before you stop.*
    S-register; don't claim above it).
 3. `../02_compile/output/outline.md` — beats + `## Imagery` + visual marks. This
    is your whole scope.
-4. `_config/style/pinker-core.md` — the prose floor.
+4. `_config/style/pinker-prose.md` — the prose floor.
 5. `_config/style/imagery.md`, and `visuals.md` if there are visual marks.
 6. The audience file and the format file named in the brief.
 

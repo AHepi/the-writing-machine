@@ -39,7 +39,7 @@ never average them into a false certainty.
 1. **Thesis-bearing facts first** — what the opening (D1) needs to state the
    claim concretely.
 2. **The reason chain** — facts in the order the argument builds them, each beat
-   picking up where the last left off (given-before-new, `pinker-core.md`).
+   picking up where the last left off (given-before-new, `pinker-prose.md`).
 3. **The steelman's facts** — the best evidence for the *other* side, placed at
    the objection beat (D2). Don't hide it; it's what makes the reply credible.
 4. **The payoff facts** — what follows if the thesis holds.

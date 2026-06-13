@@ -1,107 +1,106 @@
-# course.md — the course generator (a generator, not a product)
+# Format: course — Handoff Package Generator
 
-*This format is different in kind from the others. The essay, op-ed, and
-newsletter formats describe a piece you write. This one describes a **package you
-emit for a downstream builder LLM to turn into a course.** The static file is the
-mold; each run casts a subject-customized `course-package.md`. You are not
-writing the course. You are writing the fully-specified handoff that lets another
-model write it — self-contained, no pointers, nothing assumed.*
+The output of this format is not a course, and it is not this file. Each run **generates** a fresh, one-file handoff package — `course-package.md` — customized to that run's subject and audience. The package is consumed by a downstream builder: a human, or another LLM that is adding content to an app or website. Pasted into that builder's prompt, the package supplies everything it needs to write and assemble the course — the breakdown of this subject, the visual directives for this data, the tone for this audience, the imagery chosen for both, the facts and sources behind all of it, and the style law that makes the builder's prose match. This file is the mold; the package is the casting. Nothing learner-facing is written here.
 
----
+Three kinds of material flow into every package, and the distinction governs everything below:
 
-## 1. What it is
+- **[GENERATED]** — produced fresh per run, from this subject's facts and this audience's profile
+- **[TEMPLATE]** — fixed rules in this file that are copied into the package, because the builder must obey them too
+- **[VERBATIM]** — the style core in §5, which travels into every package unchanged
 
-A generator. When the brief's `format: course`, the pipeline does not produce
-prose for a human reader at stage 03 — it produces **`course-package.md`**: a
-single self-contained file that a separate builder LLM can execute into a full
-course with no access to this workspace. Everything the builder needs is cast
-into the package; every pointer is already resolved.
+All numbered sections are addressable as §1–§6.
 
-## 2. Length norm
+## 1. Trigger and inputs
 
-The **package** is bounded, not the course. Target a package of 1,500–3,000
-tokens — dense, complete, no prose padding. The course it generates is as long
-as its module breakdown demands; that is the builder's output, not ours.
+Use when the resolved brief says `format: course`, or the goal names teaching, training, curriculum, onboarding, or supplying content to an app or site.
 
-## 3. Structure — what the cast `course-package.md` must contain
+Stage 03 inputs in course mode, beyond the standard set: `_config/style/visuals.md` (all), `_config/style/imagery.md` (all), the audience profile (all). Context policy: whole files; this format is exempt from token thrift and from the 400-token format-file budget.
 
-Stage 03, running this format, emits these blocks in order. Each is filled from
-the brief, factsheet, and outline — never left as a pointer.
+## 2. What stage 03 does in course mode
+
+It does not write prose for learners. It writes the specification and materials *for* writing:
+
+1. Transform `outline.md` into a content breakdown — the module → lesson map for this subject, each lesson wired to its facts and visuals.
+2. Convert the outline's visual marks into full directives, wired to data tables built from the factsheet.
+3. Distill the audience profile into tone instructions the builder can obey without ever seeing the profile.
+4. Carry the outline's Imagery block forward as a repertoire with its usage rules attached.
+5. Attach the factsheet, the data tables, and the source register whole.
+6. Embed the style core verbatim.
+7. Write one SAMPLE card for module 1 only — so the builder calibrates voice and depth — and nothing else in a learner's voice.
+
+## 3. The package — generate exactly these sections, lettered, in order
+
+**A. BUILD NOTES** [generated from a fixed template] — ≤10 lines. What this package is; that it complements the builder's own prompt; that §B's prerequisite order is binding while screen layout is the builder's; that §H binds all copy the builder writes; that nothing outside this file is required.
+
+**B. CONTENT BREAKDOWN** [GENERATED] — the curriculum for this subject as a table: module | lesson | the idea (one line) | facts used [Fn] | visual [Vn] | hook suggestion (≤1 line) | prerequisites. Derived from the outline; ordering is given-before-new at curriculum scale — no lesson uses a concept an earlier lesson hasn't introduced.
+
+Example of one generated row:
 
 ```
-# course-package.md — <subject>
-
-## A. Subject & goal
-   the resolved topic and goal, verbatim from brief.md
-
-## B. Audience & register
-   the FULL resolved audience profile, pasted in (not referenced):
-   reading level, assumed knowledge (the do-not-re-explain list), the
-   condescension test for this audience. The builder must never re-explain
-   what §B says the learner already knows.
-
-## C. Breakdown directives
-   how to split the subject into modules and lessons:
-   - module count and the principle of division (by concept? by skill? by
-     chronology?)
-   - per-module: a learning objective stated as something the learner can DO
-   - sequencing rule: each lesson assumes only what earlier ones established
-   - the anti-laziness spine: every module fully built, last module at the
-     density of the first; "the remaining modules follow similarly" is forbidden
-
-## D. Data tables
-   every fact the course may use, pasted from the factsheet with its F-tag and
-   S-register. The builder may use ONLY these facts — same provenance law as the
-   prose pipeline. No invented data.
-
-## E. Visual specs
-   the charts/diagrams/tables the course should carry, in the CHART:/DIAGRAM:/
-   TABLE: syntax from visuals.md, each with a data reference into §D and a
-   one-sentence message=. Placement law: each visual beside the claim it proves.
-
-## F. Imagery repertoire
-   the controlling metaphor drawn from this audience's world, the compatible
-   domains, the supporting analogies mapped to modules, any licensed meme.
-   The builder renders exactly this set — nothing off the map (imagery.md).
-
-## G. Tone instructions
-   the register defaults, the provocation level, what counts as talking down to
-   THIS learner, and the honesty gate.
-
-## H. The Pinker core
-   the full text of pinker-core.md, pasted in. This is the prose floor the
-   builder's every sentence must clear. Pasted, not referenced — the builder has
-   no access to this workspace.
-
-## I. Completeness contract
-   the D-list for the course: what the finished course must contain, the failure
-   modes forbidden by name, and a CHECK the builder runs before it declares done.
+| M2 | L3 | Rate rises transfer income from mortgaged households to savers | F4, F7 | V2 | "Your landlord's bank statement, before and after the hike" | M1.L2 |
 ```
 
-## 4. Register defaults (of the package itself)
+Followed by the **architecture laws** [TEMPLATE], copied so the builder writes to them: one idea per card, 40–150 words; every lesson runs HOOK → CONCEPT → EXAMPLE → CHECK, with checks phrased as predictions or tasks, never "did you understand?"; modules are 3–7 lessons, opening with why-this-matters, closing with a one-line-per-lesson recap; the final module is written at the depth of the first — fading effort is a defect.
 
-Imperative and machine-facing. The package talks to a builder LLM, not a human
-learner — it gives directives, specs, and pasted-in resources, not prose. Every
-section is self-contained: a builder with only `course-package.md` and no other
-file can execute it completely.
+**C. VISUAL DIRECTIVES** [GENERATED] — every chart, diagram, table, and widget this subject's content earned, in machine-readable spec syntax:
 
-## 5. Visuals policy
+```
+CHART:   id=V1 | type=bar|line|scatter | x=<axis> | y=<axis> | data=T2 | message="the one sentence this chart must make obvious"
+DIAGRAM: id=V2 | mermaid | <fenced mermaid block> | message="…"
+WIDGET:  id=V3 | type=<slider-model|sorter|calculator|simulation> | inputs=<learner controls> | output=<what updates> | behavior="<the rule the widget enacts>" | success="the learner sees that …"
+```
 
-The package always carries §E (visual specs) — a course without visuals is rare.
-But the specs follow `visuals.md` exactly, including the rule that a visual which
-doesn't beat prose is cut. The dial still applies: `visuals: off` shrinks §E to
-tables only.
+Every spec carries its `message=` or `success=`; a visual that cannot state its takeaway in one sentence is decoration — cut it. Chart data lives once, in §D, referenced by table id. Include the **decision table** [TEMPLATE] so the builder can add visuals correctly: numbers with a shape → chart; process or structure → diagram; side-by-side attributes → table; a cause-effect the learner should feel → widget; a single idea → prose, because visuals are never ornament. Placement law: the visual sits after the CONCEPT it serves, before the CHECK.
 
-## 6. Memes & heat
+**D. DATA TABLES** [GENERATED] — render-ready markdown tables, ids T1, T2…, every row sourced [Sn]. The single home of all numbers in the package.
 
-Governed by §F and §G of the package, themselves set by the audience and the
-`provocation` dial — same joint license as every other format.
+**E. FACT SHEET** [GENERATED] — the F-register from stage 02, whole. The builder writes from these facts and no others; anything it wants to add, it flags for human approval rather than inventing.
 
-## 7. Done-when
+**F. TONE INSTRUCTIONS** [GENERATED + TEMPLATE] — ≤12 lines distilled from the audience profile: who the learner is, what they already know (which the builder must never re-explain), register and vocabulary, what reads as talking down to this audience specifically. Plus the fixed bans: second person, present tense; no exclamation-mark enthusiasm; no "simply / just / easy"; no congratulation filler; encouragement only as information — end each module by naming what the learner can now do that they couldn't before.
 
-The package is done when a downstream builder LLM, handed **only**
-`course-package.md`, could build the entire course without a single question and
-without access to this workspace: every fact pasted with provenance, every
-pointer resolved, every visual specified, the prose floor included, and the
-completeness contract explicit. The mold is complete when the casting needs no
-touch-up.
+**G. IMAGERY REPERTOIRE** [GENERATED + TEMPLATE] — the controlling metaphor chosen at stage 02 from this audience's world, its planned extension module by module, and every licensed supporting analogy or meme, each with the lesson it serves. Plus the usage rules: the controlling metaphor unfolds — introduced at its simplest in module 1, extended, never replaced; supports live in the same source domain or one this section declares compatible; nothing off this map appears in any card; an image is explained at most once, at first use; the condescension gate — would this audience use this image among themselves? — applies to anything the builder adds.
+
+**H. STYLE GUIDE** [VERBATIM] — the STYLE-CORE block from §5, markers removed. It binds the cards the builder writes and every line of connective copy around them, so the seams never show.
+
+**I. SOURCES** [GENERATED] — the S-register from research, in full.
+
+## 4. Customization rules — what varies with what
+
+The **subject** decides §B's breakdown, §C's visuals, §D's data, §E's facts. The **audience** decides §F's tone, §B's hooks and examples, §G's source domain. **Nothing** decides §H, the architecture laws, the spec syntax, or the section order — these are the invariants that let any builder consume any package the same way. When generating, never copy this file's examples into a package; every generated line answers to the run's brief, or it is filler.
+
+## 5. STYLE-CORE — the verbatim cargo
+
+<<<STYLE-CORE — Pinker, condensed
+
+Prose is a window: the writer has seen something, and the words exist to let the reader see it too. Write about the subject, never about the writing — no "in this section," no "it's important to note," no narrating what the text is about to do.
+
+Hedges either carry content or die. "Roughly 30%" informs; "somewhat significant" insures the writer. Commit to what the evidence supports.
+
+Prefer the concrete to the abstract. After any general claim, give the instance that makes it visible. One example outperforms a paragraph of definition.
+
+Use verbs, not their embalmed nouns: assess, not "make an assessment of"; agree, not "is in agreement with."
+
+Keep each sentence's subject close to its verb. Put light phrases before heavy ones. End the sentence on its strongest element — the stress position is the last slot.
+
+Begin sentences with what the reader already has; end them with what is new. This one ordering rule does more for flow than any transition word.
+
+One name per thing. Do not rotate synonyms for the same referent; the reader must not wonder whether "the measure" is "the policy."
+
+State things positively. Use a negation only to deny something the reader plausibly believes.
+
+No clichés, no stock intensifiers — "crucial," "game-changer," "delve," "navigate the landscape." Say it plainly or find a fresh image.
+
+Vary sentence rhythm. Follow a long, unspooling sentence with a short one. Like this.
+
+Before finishing, check: opening sentence deletable? Delete it. Every abstraction within reach of an example? Every claim committed? Then stop.
+
+STYLE-CORE>>>
+
+## 6. CHECK — gates on the generated package, appended to stage 03's CHECK
+
+- [ ] No learner-facing prose anywhere except the single SAMPLE card; the package instructs, it does not pre-write the course
+- [ ] Every lesson row cites at least one [Fn]; every cited [Fn] exists in §E; every D-item from the brief's deliverables is covered by some lesson row
+- [ ] Every [Vn] in §B exists in §C; every chart's `data=` table exists in §D; every spec carries `message=` or `success=`
+- [ ] §F names what this audience already knows; §G declares exactly one controlling metaphor and only same-or-compatible-domain supports
+- [ ] §H present verbatim; sections A–I present, lettered, in order
+- [ ] Nothing in the package is copied from this file's examples

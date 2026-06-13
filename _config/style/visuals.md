@@ -12,36 +12,32 @@ it appears **beside the claim it proves**.
 | Numbers that have a *shape* (trend, distribution, comparison of magnitudes) | **chart** |
 | A *process or structure* (steps, flows, parts and their relations) | **diagram** |
 | Side-by-side *attributes* across items | **table** |
-| Anything else | **prose** |
+| A *cause-and-effect the reader should feel* (interactive contexts only) | **widget** |
+| A single idea | **prose** |
 
 If a candidate visual fails this test — if prose would carry it as well or
 better — it doesn't earn placement. "It looks nice" is not a reason; visuals are
-never decorative.
+never decorative. The **widget** row applies only where the medium is
+interactive (an app or site) — the `course` format earns widgets; static prose
+formats stop at charts, diagrams, and tables.
 
 ## 2. The spec syntax (machine-readable, never vague)
 
 Stage 03 emits a spec block, not an instruction to a human. Never "insert a
-graph here." Every spec carries an `id`, a `data=` reference to a factsheet
-table or F-tag, and a one-sentence `message=` stating the single thing the
-visual proves.
+graph here." Every spec is one pipe-delimited line carrying an `id`, a `data=`
+reference to a factsheet table or F-tag, and a one-sentence `message=` (or
+`success=` for a widget) stating the single thing the visual proves. This is the
+same syntax the course package uses, so a spec is portable across both.
 
 ```
-CHART id=V1 type=<line|bar|scatter|area>
-  data=<factsheet table id or F-tag>
-  message="<the one claim this chart makes visible>"
-  x=<column>  y=<column>
-  [series=<column>]
-
-DIAGRAM id=V2 kind=<flow|hierarchy|cycle|comparison>
-  message="<the structure this makes clear>"
-  nodes=<list>
-  edges=<from→to list>
-
-TABLE id=V3
-  message="<what the comparison reveals>"
-  columns=<list>
-  rows=<from factsheet; each cell sourced>
+CHART:   id=V1 | type=bar|line|scatter|area | x=<axis> | y=<axis> | data=T2 | message="the one sentence this chart must make obvious"
+DIAGRAM: id=V2 | mermaid | <fenced mermaid block> | message="the structure this makes clear"
+TABLE:   id=V3 | columns=<list> | rows=<from factsheet, each cell sourced> | message="what the comparison reveals"
+WIDGET:  id=V4 | type=<slider-model|sorter|calculator|simulation> | inputs=<learner controls> | output=<what updates> | behavior="<the rule the widget enacts>" | success="the learner sees that …"
 ```
+
+A spec that cannot state its takeaway in one sentence (`message=`/`success=`)
+is decoration — cut it.
 
 ## 3. The data rule
 
@@ -60,7 +56,8 @@ outline marks which beat each visual serves; stage 03 places the spec there.
 
 - **Stage 02** marks a beat in the outline as visual when it passes the
   earn-its-place test, noting the intended form and the message:
-  `visual: CHART — message="…" — data=<table/F-tag> — beat <n>`.
+  `visual: CHART — message="…" — data=<table/F-tag> — beat <n>`
+  (form is `CHART`/`DIAGRAM`/`TABLE`, or `WIDGET` for course/interactive runs).
 - **Stage 03** writes the full spec for each marked beat, and **only** those.
   It may not introduce a visual the outline didn't license — generation is
   downstream of planning.

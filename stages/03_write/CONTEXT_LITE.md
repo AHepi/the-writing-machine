@@ -24,9 +24,9 @@ file is fetched. Inputs contain no pointers.*
    only the supporting images the Imagery block lists. No new images.
 4. **Write only the marked visuals.** For each visual mark in the outline, write
    a real spec:
-   `CHART id=V1 type=bar data=<the table/F-tag> message="<the one thing it shows>" x=<col> y=<col>`
-   (or `DIAGRAM`/`TABLE` likewise). Put it in the beat that makes the claim. No
-   other visuals.
+   `CHART: id=V1 | type=bar | x=<col> | y=<col> | data=<the table/F-tag> | message="<the one thing it shows>"`
+   (or `DIAGRAM:`/`TABLE:` likewise, one pipe-delimited line each). Put it in the
+   beat that makes the claim. No other visuals.
 5. **Every fact must trace to an F-tag.** Don't invent numbers or sources. If a
    fact you need isn't in the factsheet, stop and say so — don't make it up.
 6. **Don't talk down.** The brief's audience already knows the things listed in

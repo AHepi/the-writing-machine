@@ -15,6 +15,9 @@ passes, it becomes `final.md`. Run by a tier-A model. (Skipped only if
 - `_config/rules.md` — the law you are auditing against (§deliverables,
   §no-laziness, §forbidden-phrases, §provenance, §imagery-and-visuals,
   §respect-floor).
+- **Course mode** (`brief.format` is `course`): also read `_config/formats/course.md`
+  §3 and §6 — you audit the package against its lettered A–I structure and its
+  CHECK gates, not against a prose word-band.
 
 ## INTERNALIZE
 - You check; you do not rewrite to taste. A defect is sent back as a defect, or
@@ -37,6 +40,21 @@ passes, it becomes `final.md`. Run by a tier-A model. (Skipped only if
 
 The last three rows (imagery, visuals, plus the deliverables row) are the
 columns this audit grew over v1; they stay as mechanical as the rest.
+
+### Course mode — audit the package, not a prose piece
+
+When the artifact is `course-package.md`, swap the Length and No-laziness rows
+for the package's own gates (from `course.md §6`) and keep the rest:
+
+| # | Check | Verdict | Evidence |
+|---|---|---|---|
+| Structure | sections A–I present, lettered, in order; §H STYLE-CORE verbatim | PASS/FAIL | list the section letters found |
+| No pre-writing | no learner-facing prose except the single SAMPLE card | PASS/FAIL | name the only card present |
+| Deliverables | every D-item covered by some §B lesson row | PASS/FAIL | D-item → lesson row |
+| Fact wiring | every §B lesson row cites an [Fn]; every cited [Fn] exists in §E | PASS/FAIL | row → [Fn] → §E |
+| Visual wiring | every [Vn] in §B exists in §C; every chart's `data=` table exists in §D; every spec has `message=`/`success=` | PASS/FAIL | [Vn] → §C → §D |
+| Tone/imagery | §F names what the audience already knows; §G declares exactly one controlling metaphor, supports same/compatible domain | PASS/FAIL | quote §F floor; §G metaphor |
+| No leakage | nothing copied from the format file's own examples | PASS/FAIL | scan for the M2/L3 / package examples |
 
 ## WRITE
 - `stages/04_audit/output/audit.md` — the filled table, plus a defect list for

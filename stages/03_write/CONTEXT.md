@@ -18,6 +18,10 @@ nothing off the imagery/visual map. This is where the anti-laziness law bites.
 - `_config/style/persuasion.md` — **only if** the goal is to persuade / the
   format argues.
 - `_config/rules.md` — the law, especially §no-laziness and §forbidden-phrases.
+- **Course mode** (`brief.format` is `course`): also read `_config/formats/course.md`
+  (all), `_config/style/visuals.md` (all), `_config/style/imagery.md` (all), and
+  the audience profile (all). Course mode reads these **whole** — it is exempt
+  from token thrift, because the package must be self-contained.
 
 ## INTERNALIZE
 - **Deliver exactly the D-list.** Nothing missing, nothing padded
@@ -37,11 +41,17 @@ nothing off the imagery/visual map. This is where the anti-laziness law bites.
 - Write the draft beat by beat, in outline order. Carry the controlling metaphor
   through, extending it as the argument deepens.
 - Where the outline marked a visual, emit a full spec in `visuals.md` syntax
-  (`CHART:`/`DIAGRAM:`/`TABLE:` with `id`, `data=`, one-sentence `message=`),
-  placed in that beat — never a vague "insert chart here."
-- **Course format only:** do not write course prose. Fill the
-  `course-package.md` template from `_config/formats/course.md` and write that
-  instead of `draft.md`.
+  (`CHART:`/`DIAGRAM:`/`TABLE:`/`WIDGET:` with `id`, `data=`, one-sentence
+  `message=`/`success=`), placed in that beat — never a vague "insert chart here."
+- **Course mode** (`brief.format` is `course`): do **not** write learner-facing
+  prose. Instead generate the handoff package per `_config/formats/course.md`:
+  output `course-package.md` with sections **A–I**, lettered, in order
+  (build notes, content breakdown + architecture laws, visual directives + the
+  decision table, data tables, fact sheet, tone instructions, imagery
+  repertoire, the STYLE-CORE style guide verbatim, sources). Write exactly one
+  SAMPLE card (module 1) and no other learner-voice prose. Copy the [TEMPLATE]
+  blocks and the [VERBATIM] STYLE-CORE in unchanged; generate the rest from this
+  run's subject and audience; never copy the format file's own examples.
 
 ## WRITE
 `stages/03_write/output/draft.md` (or `course-package.md` for a course run).
@@ -58,6 +68,11 @@ Exact name.
 - [ ] **Visuals:** every spec has `data=` present in the factsheet and a
       one-sentence message; no unlicensed visual appears.
 - [ ] **Provenance:** every factual claim traces to an F-tag.
+- **Course mode:** also run the §6 gates from `course.md` — no learner prose
+  beyond the one SAMPLE card; every lesson row cites an [Fn] that exists in §E
+  and every D-item is covered by a row; every [Vn] in §B exists in §C and every
+  chart's `data=` table exists in §D; §H present verbatim; sections A–I present,
+  lettered, in order; nothing copied from the format file's examples.
 
 If any item fails, fix and re-CHECK. You may not STOP on a failed CHECK.
 

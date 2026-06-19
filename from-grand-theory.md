@@ -206,17 +206,17 @@ The instruction was to leave nothing lurking. Here is the full cast of people, e
 
 *Read this section as an inverted triangle. It begins at the widest spread of open questions and narrows, tier by tier, to the single point the whole show stands on.*
 
-**Tier 1 — the whole field.** Everything the show withholds can be sorted into four questions. What is the town. Who or what is "It." Why children, specifically, and why their bones. Whether anyone can truly leave, and what the lighthouse, the lake, the worms, the storywalker, and the supply trucks are for.
+**Tier 1: the whole field.** Everything the show withholds can be sorted into four questions. What is the town. Who or what is "It." Why children, specifically, and why their bones. Whether anyone can truly leave, and what the lighthouse, the lake, the worms, the storywalker, and the supply trucks are for.
 
-**Tier 2 — the four collapse into one.** Each of those questions has been answered with "not a thing, a behavior." The roads behave. The dead behave. The author behaves. The town is not an object with a location and a rulebook waiting to be found. The town is a process. The right question is not *where is this* but *what is this doing*.
+**Tier 2: the four collapse into one.** Each of those questions has been answered with "not a thing, a behavior." The roads behave. The dead behave. The author behaves. The town is not an object with a location and a rulebook waiting to be found. The town is a process. The right question is not *where is this* but *what is this doing*.
 
-**Tier 3 — the process is a story.** The process re-runs the same chapter with recast players who cannot change it, witnessed by a walker who can visit but not revise, scored by a song that says it is already written, named from inside by a priest as an unfinished book. The town is a told story stuck before its ending.
+**Tier 3: the process is a story.** The process re-runs the same chapter with recast players who cannot change it, witnessed by a walker who can visit but not revise, scored by a song that says it is already written, named from inside by a priest as an unfinished book. The town is a told story stuck before its ending.
 
-**Tier 4 — the story is about grief.** The cast is uniformly the bereaved and the fleeing, frozen at the moment of a loss they would not face. The monsters are people who could not let an ending happen. The fuel is refused mourning, and the new monsters are old fears that never got to leave.
+**Tier 4: the story is about grief.** The cast is uniformly the bereaved and the fleeing, frozen at the moment of a loss they would not face. The monsters are people who could not let an ending happen. The fuel is refused mourning, and the new monsters are old fears that never got to leave.
 
-**Tier 5 — the bargain is the refusal, made literal.** To never end is to be immortal. The price of never ending is the future, which is why the currency is children. Every horror in the town is one shape of a single act: choosing permanence over conclusion, and sacrificing what comes next to pay for it.
+**Tier 5: the bargain is the refusal, made literal.** To never end is to be immortal. The price of never ending is the future, which is why the currency is children. Every horror in the town is one shape of a single act: choosing permanence over conclusion, and sacrificing what comes next to pay for it.
 
-**Tier 6 — the cure is the opposite act.** You cannot fight your way out, because the monsters are the refusal and killing them only refuses harder. You cannot flee, because the door loops you back into the unfinished feeling. You can only finish it: remember the children, restore the ability to end, and perform the conclusion the story has never been allowed to reach.
+**Tier 6: the cure is the opposite act.** You cannot fight your way out, because the monsters are the refusal and killing them only refuses harder. You cannot flee, because the door loops you back into the unfinished feeling. You can only finish it: remember the children, restore the ability to end, and perform the conclusion the story has never been allowed to reach.
 
 **The tip.** *From* is a grief that refused to end, built into a place. The town is the unfinished story of people who could not let the dead be dead, and it runs on repeat until someone chooses, at last, to remember the lost instead of keeping them. The way out was never a road, a weapon, or a door. The way out is to let the ending happen.
 

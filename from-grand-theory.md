@@ -16,13 +16,13 @@ The second is the rule the antagonist repeats: **you cannot change a story once 
 
 The third is the creators' own seed. John Griffin has said the show grew from the aftermath of 9/11 and the discovery that "there is no permanence" to the world we build, and from the specific vertigo of grief: "your entire world has shattered, and yet the rest of the world is still paying bills and buying coffee." Jeff Pinkner calls the town "a crucible for each of these people and what they are going through in their lives," and describes the craft as making the audience "fall in love with characters, and then watching them suffer."
 
-Put those three together and the thesis of this report is already visible in outline. *From* is a story about a story that cannot end, built out of grief, whose only exit is to remember. Everything below is the case for that, and the mechanics that make it run.
+Put those three together and the shape appears. *From* is a story about a story that cannot end, built out of grief, with one way out: to remember.
 
 ---
 
 ## II. The state of the board, read as evidence
 
-Each confirmed event is a clue. Here is the board, compressed, with what each fact proves.
+Each confirmed event is a clue, and each proves a piece of the machine.
 
 The town traps everyone; roads loop; communication dies; supplies and power arrive from nowhere. **Proof the town is maintained, not merely cursed.** Something keeps the cast alive and fed. A prison starves you. This place provisions you.
 
@@ -48,7 +48,7 @@ That is the board. Now the engine.
 
 ## III. The unseen mechanics: how the town actually works
 
-This is the model. It is mine, assembled from the clues above, and it explains the parts that the show has not yet explained.
+This model is mine, built from the clues above, and it accounts for the parts the show has left dark.
 
 **1. The town is a told story, stuck mid-chapter.** Father Khatri said it first and plainest in Season 1 with his "Book 74" theory: that they are living an unwritten book of scripture, and "how can it be finished while the players are still on the stage?" The storywalker rule confirms it from the other side: the story is a fixed text you can visit but not revise. The theme song, the Pixies' funereal "Que Sera, Sera," states the mood of the trapped text: whatever will be, will be, because it has already been written. The town is not a place that happens to contain a story. The town is the story, paused on the same chapter.
 
@@ -74,7 +74,7 @@ This is the model. It is mine, assembled from the clues above, and it explains t
 
 ## IV. Every thread, placed
 
-The instruction was to leave nothing lurking. Here is the full cast of people, entities, objects, places, and mechanics, each with the clue that defines it, its function in the engine, and where I expect it to land.
+Every figure, object, and mechanic that lurks in the town, placed: its defining clue, its job in the engine, and where it lands.
 
 ### The people
 
@@ -98,7 +98,7 @@ The instruction was to leave nothing lurking. Here is the full cast of people, e
 
 **Christopher and Jasper.** Jade's prior self, the once-joyful man corrupted by the symbol into the town's first child-killer, and the ventriloquist doll through which the Boy in White spoke to him. Christopher is the cautionary version of the recast lead: the parent who, instead of refusing the bargain, became its instrument. Jasper is the show's clean image of authorship-from-outside, a mouth that moves without a hand, the voice of the story speaking through a prop. Jade carries Christopher's guilt as Tabitha carries Miranda's hope.
 
-**Jade Herrera.** The skeptic who decodes the symbol and the lullaby, the recurring truth-teller murdered every cycle by the very people he is trying to save. His arc is the collision of rationalism with a metaphysical answer, and he is the one who turns the bottle-tree numbers into the memory-key. Prediction: Jade once again carries the knowledge that completes the scene, and the town's oldest instinct, to kill the truth-teller, is the last obstacle the recast leads must overcome. If anyone breaks the pattern of murdering Jade's line, that act is itself part of the new ending.
+**Jade Herrera.** The skeptic who decodes the symbol and the lullaby, the recurring truth-teller murdered each cycle by the people he is trying to save. His arc is the collision of rationalism with a metaphysical answer, and he is the one who turns the bottle-tree numbers into the memory-key. Prediction: Jade once again carries the knowledge that completes the scene, and the town's oldest instinct, to kill the truth-teller, is the last obstacle the recast leads must overcome. If anyone breaks the pattern of murdering Jade's line, that act is itself part of the new ending.
 
 **Sara Myers and Nathan.** Sara, steered by voices to kill, who killed her brother instead, and has spent the series trying to be redeemed. She is the human proof of the consent-mechanic: the town does not force, it whispers, and it makes good people open the door. Her willingness to do the unbearable thing so Boyd does not have to (gouging Elgin's eye) marks her as the one who absorbs moral cost on the group's behalf. Prediction: Sara's redemption is completed by a sacrifice that saves a child, closing the loop her fratricide opened.
 
@@ -108,7 +108,7 @@ The instruction was to leave nothing lurking. Here is the full cast of people, e
 
 **Donna Raines.** Leader of Colony House, the "live for today" pole, the pragmatic acceptance that keeps a faction alive without hope. She is the structural counterweight to Boyd's hope-driven order, and the two communities are the show's model of a society splitting under siege into denial and resignation.
 
-**Kristi Miller and Marielle.** The doctors. Kristi is functional acceptance, survival-first. Marielle, who hears the screams of all the trapped dead, is the show's receiver, the one tuned to the truth that the dead never left. Her line is a load-bearing clue: the endgame requires freeing the dead, not just the living.
+**Kristi Miller and Marielle.** The doctors. Kristi is functional acceptance, survival-first. Marielle, who hears the screams of all the trapped dead, is the show's receiver, the one tuned to the truth that the dead never left. Her line is the clue the endgame turns on: free the dead, not only the living.
 
 **Elgin.** The dreamer the Kimono Woman used as her hands, manipulated into feeding Fatima's pregnancy with a lie about going home. He wears a raven shirt, which ties him to the crows and to Odin's ravens of thought and memory. He is the cautionary figure of false hope: the man who served the bargain because it promised the exit everyone wants.
 
@@ -176,7 +176,7 @@ The instruction was to leave nothing lurking. Here is the full cast of people, e
 
 **The worms.** Mortality itself, the only weapon against the deathless, the cure that ends the inability to end. The single most underrated object in the show, because it is the literal antidote to the bargain.
 
-**The bus, the Box, the 1864 papers, and the Civil War layer.** The bus is the cast being replenished. The Box is the town's prison-within-the-prison, the cost of breaking the social compact. The 1864 papers and Jade's Civil War life are the depth-gauge on the loop: this has been running for a very long time, across many casts, all of them failing the same scene.
+**The bus, the Box, the 1864 papers, and the Civil War layer.** The bus is the cast being replenished. The Box is the town's prison-within-the-prison, the cost of breaking the social compact. The 1864 papers and Jade's Civil War life are the depth-gauge on the loop: this has run for centuries, across many casts, all failing the same scene.
 
 ### The mechanics
 
@@ -196,7 +196,7 @@ The instruction was to leave nothing lurking. Here is the full cast of people, e
 
 ## V. The case for what comes next
 
-**The Season 4 finale (the bone-raid).** Boyd's plan to force the bones is the wrong method performed by the right people, and the show has spent a season foreshadowing that force fails. Expect the raid to backfire and to cost at least one major life; Boyd's vision of his people shot dead is the warning. Expect the bones to be confirmed as genuinely central, because the author would not guard a dead end. Expect Fatima's transformation to escalate toward weaponized sacrifice. Expect the finale to reframe the lake and the lighthouse and to leave the true method, remembering rather than excavating, as the bridge into the final season. A character death that lands on the theme is likely, and Boyd is the most thematically loaded candidate, though the show may spend Fatima first.
+**The Season 4 finale (the bone-raid).** Boyd's plan to force the bones is the wrong method performed by the right people, and the show has spent a season foreshadowing that force fails. Expect the raid to backfire and to cost at least one major life; Boyd's vision of his people shot dead is the warning. Expect the bones confirmed as central, because the author would not guard a dead end. Expect Fatima's transformation to escalate toward weaponized sacrifice. Expect the finale to reframe the lake and the lighthouse and to leave the true method, remembering rather than excavating, as the bridge into the final season. A character death that lands on the theme is likely, and Boyd is the most thematically loaded candidate, though the show may spend Fatima first.
 
 **The final season.** The loop breaks not by force but by completion. The recast leads, Tabitha and Jade, finally perform the scene their past selves failed: they refuse the bargain and free the children by remembering them, raising the bones, and laying them to rest. The worms supply the missing ingredient, mortality, that lets the freed monsters finally die rather than reincarnate. The act that the storywalker rule called impossible, changing a told story, is performed by a child, Julie or Ethan, because the rule bound the characters and a child who can read the whole book becomes the one who can write its last page. The Man in Yellow is not killed; he is unwritten, defeated the instant a changed ending holds. The Boy in White, having aged into the end, is released with the children. And the exit is not a triumphant escape but a funeral: a handful of survivors return to Camden carrying their dead, the town collapses because its story is finally over, and the cost is enormous, in the register the creators named when they cited *Six Feet Under*. The last beat is not "we got out." It is "we remembered, and we let them go."
 
@@ -204,7 +204,7 @@ The instruction was to leave nothing lurking. Here is the full cast of people, e
 
 ## VI. What we do not yet know: the narrowing
 
-*Read this section as an inverted triangle. It begins at the widest spread of open questions and narrows, tier by tier, to the single point the whole show stands on.*
+*The open questions, narrowing tier by tier to the single point the whole show stands on.*
 
 **Tier 1: the whole field.** Everything the show withholds can be sorted into four questions. What is the town. Who or what is "It." Why children, specifically, and why their bones. Whether anyone can truly leave, and what the lighthouse, the lake, the worms, the storywalker, and the supply trucks are for.
 

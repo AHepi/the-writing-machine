@@ -6,7 +6,7 @@
 
 ## Summary
 
-The town in *From* is not a haunted location but a single working mechanism, and each separate mystery is one of its parts. The mechanism is a story set on repeat, powered by grief that its inhabitants refuse to finish, and it holds them until the loss at its center is remembered rather than denied. The monsters, the talismans, the lighthouse, the bones, the reincarnations, and the Man in Yellow all follow from that one design.
+The town in *From* is not a haunted location but a single working mechanism, and each separate mystery is one of its parts. The mechanism is a story set on repeat, powered by grief that its inhabitants refuse to finish, and it holds them until the loss at its center is remembered, not denied. The monsters, the talismans, the lighthouse, the bones, the reincarnations, and the Man in Yellow all follow from that one design.
 
 ## The town is a process, not a place
 
@@ -44,7 +44,7 @@ The town is a grief that refused to end, given the form of a place. It is the un
 
 ## Forecast
 
-**Season 4 finale.** Boyd's attempt to force the bones will fail, because the town resists every direct method and the season has been demonstrating as much. A central character will die on that failure, most likely Boyd, with Fatima spent earlier as her bond to Smiley turns her into a mother who produces a weapon in place of a child. The bones will be confirmed as the genuine exit, and the correct method, remembrance rather than excavation, will be set in place for the final season.
+**Season 4 finale.** Boyd's attempt to force the bones will fail, because the town resists every direct method and the season has been demonstrating as much. A central character will die on that failure, most likely Boyd, with Fatima spent earlier as her bond to Smiley turns her into a mother who produces a weapon in place of a child. The bones will be confirmed as the genuine exit, and the correct method, remembrance, not excavation, will be set in place for the final season.
 
 **Season 5.** The series will close by completion, not victory. Tabitha and Jade will finish the rescue their earlier selves failed; a child, Julie or Ethan, will perform the change the story's rules forbid; the worms will let the freed monsters die for good; and the Man in Yellow will be undone the moment a new ending holds. The Boy in White will depart with the freed children. The resolution will read as a funeral rather than a triumph: a small number of survivors returning to Camden with their dead, the town collapsing as its story ends.
 

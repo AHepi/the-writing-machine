@@ -19,8 +19,7 @@ stage where lazy models fail, so its CHECK is a ritual, not a glance.*
   S-registers.
 - `../02_compile/output/outline.md` — the beats, the `## Imagery` block, the
   per-beat visual marks. **This is your scope. Add nothing to it.**
-- `_config/style/pinker-core.md` (or `pinker-prose.md` if thrift OFF) — the
-  prose floor.
+- `_config/style/pinker-prose.md` — the prose floor.
 - `_config/style/imagery.md` — how to render the licensed images.
 - `_config/style/visuals.md` — **only if** visual marks exist; for the spec
   syntax.

@@ -36,7 +36,7 @@ prompt.
 ## Stage 03 — Write
 
 1. `stages/03_write/CONTEXT_LITE.md`
-2. `_config/style/pinker-core.md`
+2. `_config/style/pinker-prose.md`
 3. `_config/style/imagery.md`
 4. `_config/style/visuals.md`  *(only if visuals are live)*
 5. The active audience file, e.g. `_config/audiences/general.md`  *(named literally in brief.md — paste the right one)*

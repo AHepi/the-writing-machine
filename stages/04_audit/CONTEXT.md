@@ -55,6 +55,10 @@ defect; a forbidden phrase is a defect.
 - `output/final.md` — the draft with all auto-fixable defects corrected. If
   unfixable defects remain, `final.md` carries them marked `[AUDIT-FLAG: …]` and
   the audit STOPs with `ASK HUMAN`.
+- `output/final.pdf` (non-`course` formats) — `final.md` rendered to PDF per
+  `references/render-pdf.md`, then delivered to the human as a downloadable file
+  (`rules.md` §7). For the `course` format, deliver `course-package.md` instead;
+  there is no PDF.
 
 ## CHECK
 
@@ -62,11 +66,15 @@ defect; a forbidden phrase is a defect.
 - [ ] Every defect either fixed in `final.md` or flagged for the human.
 - [ ] No new fact, image, or claim introduced while fixing (audit fixes form, not
       substance — a substantive gap goes back up the pipeline).
+- [ ] Final deliverable rendered and delivered as a downloadable file: PDF for
+      non-`course` formats, `course-package.md` for `course` (`rules.md` §7).
 
 ## STOP
 
-If the table is all-pass (or all defects auto-fixed), hand `final.md` to the
-human as the finished piece. If substantive defects remain, `ASK HUMAN` with the
+If the table is all-pass (or all defects auto-fixed), render `final.md` to
+`final.pdf` (`references/render-pdf.md`) and deliver that file to the human as
+the finished piece — handing off means delivering the download, not only writing
+the markdown. If substantive defects remain, `ASK HUMAN` with the
 flagged list. Every edit the human then makes gets the shakedown question:
 **one-off, or symptom?** A symptom is fixed in the source file — the rule, the
 audience, the contract — so every later run inherits the fix.

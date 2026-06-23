@@ -1,9 +1,9 @@
 # pinker-prose.md — the delivery floor (full)
 
 *The prose standard every draft must clear, after Steven Pinker's account of
-**classic style** in* The Sense of Style*. This is the long reference; stage 03
-on a tight budget loads `pinker-core.md` instead, which is this file boiled to
-its bones. Nothing here is optional flair — it is the floor a draft stands on.*
+**classic style** in* The Sense of Style*. This is the single prose floor — every
+stage that writes loads this file in full. Nothing here is optional flair — it is
+the floor a draft stands on.*
 
 ---
 

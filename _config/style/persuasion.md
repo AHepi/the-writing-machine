@@ -2,7 +2,7 @@
 
 *Read at stage 02 (planning the argument's spine) and stage 03 (executing it).
 This file sets the **mechanics of persuasion** that compose with the prose floor
-(`pinker-core.md`), the register (audience file), and the heat (`provocation`
+(`pinker-prose.md`), the register (audience file), and the heat (`provocation`
 dial). It never overrides the respect floor in `rules.md`.*
 
 ---

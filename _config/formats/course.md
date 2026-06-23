@@ -68,8 +68,8 @@ the brief, factsheet, and outline — never left as a pointer.
    the register defaults, the provocation level, what counts as talking down to
    THIS learner, and the honesty gate.
 
-## H. The Pinker core
-   the full text of pinker-core.md, pasted in. This is the prose floor the
+## H. The prose floor
+   the full text of pinker-prose.md, pasted in. This is the prose floor the
    builder's every sentence must clear. Pasted, not referenced — the builder has
    no access to this workspace.
 

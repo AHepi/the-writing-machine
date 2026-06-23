@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Renderer intermediates (the tufte-pdf skill writes these next to its output)
+*.sidecar.html

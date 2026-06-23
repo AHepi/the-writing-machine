@@ -1,0 +1,66 @@
+/* tufte-print.css — paged-media adjustments layered on top of tufte.css.
+   Loaded after tufte.css so these rules win. Targets headless-Chromium PDF. */
+
+@page {
+  size: A4;
+  margin: 18mm 12mm 20mm 12mm;
+}
+
+html { font-size: 14px; }                 /* a touch denser than screen Tufte */
+
+body {
+  width: 90%;
+  padding-left: 10%;
+  background: #fffff8;
+  color: #111;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  /* tufte.css and katex.min.css each set counter-reset on body; katex's loads
+     later and clobbers Tufte's sidenote-counter. Re-establish all three here
+     (this sheet loads last) so sidenotes number sequentially. */
+  counter-reset: sidenote-counter katexEqnNo mmlEqnNo;
+}
+
+/* Keep headings with the text that follows; avoid orphaned section titles. */
+h1, h2, h3, h4 { break-after: avoid-page; }
+h2 { break-before: page; }                 /* each chapter starts on a fresh page */
+h1 { break-before: avoid-page; }           /* title block never forced to page 2 */
+
+/* Don't fracture small structural blocks across pages. */
+figure, table, blockquote, pre { break-inside: avoid; }
+.sidenote, .marginnote { break-inside: avoid; }
+
+/* Title-block spacing for the textbook front matter. */
+h1 { margin-top: 0; }
+.subtitle { font-style: italic; margin-top: 0.3rem; font-size: 1.6rem; display: block; }
+
+/* Math: keep display equations from clipping into the margin column. */
+.katex-display { overflow-x: auto; overflow-y: hidden; margin: 1rem 0; }
+.katex { font-size: 1.0em; }
+.katex-display > .katex { font-size: 1.05em; }
+
+/* A boxed aside for the "math, gently" explainers (uses <div class="tk-box">). */
+.tk-box {
+  width: 55%;
+  border: 1px solid #b0ada0;
+  background: #f7f6ee;
+  padding: 0.6rem 0.9rem;
+  margin: 1.2rem 0;
+  border-radius: 3px;
+  break-inside: avoid;
+}
+.tk-box p { width: 100%; }
+.tk-box .tk-box-title {
+  font-style: italic;
+  letter-spacing: 0.02em;
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #555044;
+}
+
+/* Tables: full readable width within the text column. */
+table { width: 55%; font-size: 1.2rem; }
+
+/* Code blocks readable in print. */
+pre, code { font-size: 1.1rem; }
+pre { background: #f4f3ec; padding: 0.6rem 0.8rem; border-radius: 3px; }
